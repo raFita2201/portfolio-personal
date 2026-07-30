@@ -1,0 +1,59 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Captura de la web de Climetric">
+  <rect width="400" height="300" fill="#FFFFFF"/>
+  <rect width="400" height="18" fill="#EAEBE3"/>
+  <circle cx="10" cy="9" r="3" fill="#D8D9CF"/>
+  <circle cx="20" cy="9" r="3" fill="#D8D9CF"/>
+  <circle cx="30" cy="9" r="3" fill="#D8D9CF"/>
+  <rect x="0" y="18" width="400" height="30" fill="#1B2430"/>
+  <text x="16" y="38" font-family="sans-serif" font-size="13" fill="#C9A227">Climetric</text>
+
+  <rect x="0" y="48" width="400" height="252" fill="#F4F5F0"/>
+
+  <!-- ciudad principal -->
+  <rect x="24" y="64" width="170" height="80" rx="6" fill="#1B2430"/>
+  <text x="40" y="98" font-family="sans-serif" font-size="26" fill="#FFFFFF">21°C</text>
+  <text x="40" y="118" font-family="sans-serif" font-size="10" fill="#94A3B8">Zaragoza</text>
+  <circle cx="160" cy="88" r="14" fill="#C9A227"/>
+
+  <!-- mini grafica -->
+  <rect x="206" y="64" width="170" height="80" rx="6" fill="#FFFFFF" stroke="#D8D9CF"/>
+  <text x="216" y="80" font-family="sans-serif" font-size="9" fill="#4A5568">Últimos 7 días</text>
+  <g fill="#3E6259">
+    <rect x="216" y="112" width="14" height="20" rx="2"/>
+    <rect x="236" y="100" width="14" height="32" rx="2" fill="#C9A227"/>
+    <rect x="256" y="116" width="14" height="16" rx="2"/>
+    <rect x="276" y="96" width="14" height="36" rx="2" fill="#C9A227"/>
+    <rect x="296" y="108" width="14" height="24" rx="2"/>
+    <rect x="316" y="104" width="14" height="28" rx="2"/>
+    <rect x="336" y="118" width="14" height="14" rx="2"/>
+  </g>
+
+  <!-- otras ciudades -->
+  <text x="24" y="168" font-family="sans-serif" font-size="10" fill="#4A5568">Otras ciudades</text>
+
+  <g font-family="sans-serif">
+    <rect x="24" y="178" width="110" height="86" rx="6" fill="#FFFFFF" stroke="#D8D9CF"/>
+    <circle cx="46" cy="200" r="10" fill="#3E6259"/>
+    <text x="64" y="204" font-size="12" fill="#1B2430">Madrid</text>
+    <text x="38" y="230" font-size="9" fill="#4A5568">Máx</text>
+    <text x="38" y="246" font-size="14" fill="#1B2430">27°</text>
+    <text x="88" y="230" font-size="9" fill="#4A5568">Mín</text>
+    <text x="88" y="246" font-size="14" fill="#4A5568">14°</text>
+
+    <rect x="145" y="178" width="110" height="86" rx="6" fill="#FFFFFF" stroke="#D8D9CF"/>
+    <circle cx="167" cy="200" r="10" fill="#C9A227"/>
+    <text x="185" y="204" font-size="12" fill="#1B2430">Sevilla</text>
+    <text x="159" y="230" font-size="9" fill="#4A5568">Máx</text>
+    <text x="159" y="246" font-size="14" fill="#1B2430">33°</text>
+    <text x="209" y="230" font-size="9" fill="#4A5568">Mín</text>
+    <text x="209" y="246" font-size="14" fill="#4A5568">19°</text>
+
+    <rect x="266" y="178" width="110" height="86" rx="6" fill="#FFFFFF" stroke="#D8D9CF"/>
+    <circle cx="288" cy="200" r="10" fill="#4A5568"/>
+    <text x="306" y="204" font-size="12" fill="#1B2430">Bilbao</text>
+    <text x="280" y="230" font-size="9" fill="#4A5568">Máx</text>
+    <text x="280" y="246" font-size="14" fill="#1B2430">19°</text>
+    <text x="330" y="230" font-size="9" fill="#4A5568">Mín</text>
+    <text x="330" y="246" font-size="14" fill="#4A5568">11°</text>
+  </g>
+</svg>

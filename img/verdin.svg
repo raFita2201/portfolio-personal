@@ -1,0 +1,72 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Captura de la web de Verdín">
+  <rect width="400" height="260" fill="#FFFFFF"/>
+  <rect width="400" height="18" fill="#EAEBE3"/>
+  <circle cx="10" cy="9" r="3" fill="#D8D9CF"/>
+  <circle cx="20" cy="9" r="3" fill="#D8D9CF"/>
+  <circle cx="30" cy="9" r="3" fill="#D8D9CF"/>
+  <rect x="0" y="18" width="400" height="30" fill="#3E6259"/>
+  <text x="16" y="38" font-family="sans-serif" font-size="13" fill="#FFFFFF">Verdín</text>
+  <rect x="300" y="28" width="30" height="8" rx="4" fill="#FFFFFF" opacity="0.6"/>
+  <rect x="340" y="28" width="40" height="8" rx="4" fill="#FFFFFF" opacity="0.6"/>
+
+  <!-- planta reutilizable: definimos 3 variantes simples -->
+  <defs>
+    <g id="plant-a">
+      <path d="M0 20 L-14 20 L-10 0 L10 0 L14 20 Z" fill="#4A5568"/>
+      <path d="M0 0 C-14 -6 -18 -26 -10 -38 C4 -30 8 -12 0 0 Z" fill="#3E6259"/>
+      <path d="M0 0 C10 -4 16 -20 10 -32 C-2 -26 -6 -12 0 0 Z" fill="#5C7D6E"/>
+    </g>
+    <g id="plant-b">
+      <path d="M0 20 L-14 20 L-10 0 L10 0 L14 20 Z" fill="#4A5568"/>
+      <path d="M0 0 L-2 -30" stroke="#3E6259" stroke-width="3" stroke-linecap="round"/>
+      <path d="M0 -8 L-12 -18" stroke="#3E6259" stroke-width="3" stroke-linecap="round"/>
+      <path d="M0 -16 L12 -26" stroke="#3E6259" stroke-width="3" stroke-linecap="round"/>
+      <path d="M0 -24 L-10 -34" stroke="#3E6259" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g id="plant-c">
+      <path d="M0 20 L-14 20 L-10 0 L10 0 L14 20 Z" fill="#4A5568"/>
+      <circle cx="-8" cy="-14" r="10" fill="#C9A227"/>
+      <circle cx="6" cy="-20" r="12" fill="#3E6259"/>
+      <circle cx="2" cy="-4" r="9" fill="#5C7D6E"/>
+    </g>
+  </defs>
+
+  <!-- grid de productos 3x2 -->
+  <g>
+    <rect x="20" y="60" width="110" height="80" rx="5" fill="#F4F5F0" stroke="#D8D9CF"/>
+    <rect x="20" y="60" width="110" height="55" rx="5" fill="#EAEBE3"/>
+    <use href="#plant-a" x="75" y="105"/>
+    <rect x="30" y="122" width="70" height="7" rx="3" fill="#4A5568"/>
+    <rect x="30" y="134" width="40" height="7" rx="3" fill="#C9A227"/>
+
+    <rect x="145" y="60" width="110" height="80" rx="5" fill="#F4F5F0" stroke="#D8D9CF"/>
+    <rect x="145" y="60" width="110" height="55" rx="5" fill="#EAEBE3"/>
+    <use href="#plant-b" x="200" y="105"/>
+    <rect x="155" y="122" width="70" height="7" rx="3" fill="#4A5568"/>
+    <rect x="155" y="134" width="40" height="7" rx="3" fill="#C9A227"/>
+
+    <rect x="270" y="60" width="110" height="80" rx="5" fill="#F4F5F0" stroke="#D8D9CF"/>
+    <rect x="270" y="60" width="110" height="55" rx="5" fill="#EAEBE3"/>
+    <use href="#plant-c" x="325" y="105"/>
+    <rect x="280" y="122" width="70" height="7" rx="3" fill="#4A5568"/>
+    <rect x="280" y="134" width="40" height="7" rx="3" fill="#C9A227"/>
+
+    <rect x="20" y="152" width="110" height="80" rx="5" fill="#F4F5F0" stroke="#D8D9CF"/>
+    <rect x="20" y="152" width="110" height="55" rx="5" fill="#EAEBE3"/>
+    <use href="#plant-c" x="75" y="197"/>
+    <rect x="30" y="214" width="70" height="7" rx="3" fill="#4A5568"/>
+    <rect x="30" y="226" width="40" height="7" rx="3" fill="#C9A227"/>
+
+    <rect x="145" y="152" width="110" height="80" rx="5" fill="#F4F5F0" stroke="#D8D9CF"/>
+    <rect x="145" y="152" width="110" height="55" rx="5" fill="#EAEBE3"/>
+    <use href="#plant-a" x="200" y="197"/>
+    <rect x="155" y="214" width="70" height="7" rx="3" fill="#4A5568"/>
+    <rect x="155" y="226" width="40" height="7" rx="3" fill="#C9A227"/>
+
+    <rect x="270" y="152" width="110" height="80" rx="5" fill="#F4F5F0" stroke="#D8D9CF"/>
+    <rect x="270" y="152" width="110" height="55" rx="5" fill="#EAEBE3"/>
+    <use href="#plant-b" x="325" y="197"/>
+    <rect x="280" y="214" width="70" height="7" rx="3" fill="#4A5568"/>
+    <rect x="280" y="226" width="40" height="7" rx="3" fill="#C9A227"/>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Captura de la web de Tasky">
+  <rect width="400" height="320" fill="#FFFFFF"/>
+  <!-- barra navegador -->
+  <rect width="400" height="18" fill="#EAEBE3"/>
+  <circle cx="10" cy="9" r="3" fill="#D8D9CF"/>
+  <circle cx="20" cy="9" r="3" fill="#D8D9CF"/>
+  <circle cx="30" cy="9" r="3" fill="#D8D9CF"/>
+  <!-- cabecera del sitio -->
+  <rect x="0" y="18" width="400" height="30" fill="#1B2430"/>
+  <text x="16" y="38" font-family="sans-serif" font-size="13" fill="#C9A227">Tasky</text>
+  <rect x="300" y="28" width="30" height="8" rx="4" fill="#4A5568"/>
+  <rect x="340" y="28" width="40" height="8" rx="4" fill="#4A5568"/>
+  <!-- hero -->
+  <rect x="0" y="48" width="400" height="60" fill="#F4F5F0"/>
+  <rect x="24" y="66" width="180" height="12" rx="4" fill="#1B2430"/>
+  <rect x="24" y="84" width="130" height="8" rx="4" fill="#4A5568"/>
+
+  <!-- lista de tareas del día -->
+  <rect x="24" y="122" width="160" height="10" rx="4" fill="#1B2430"/>
+  <text x="184" y="131" font-family="sans-serif" font-size="9" fill="#4A5568">Hoy</text>
+
+  <g font-family="sans-serif" font-size="11" fill="#1B2430">
+    <rect x="24" y="140" width="352" height="26" rx="5" fill="#FFFFFF" stroke="#D8D9CF"/>
+    <circle cx="38" cy="153" r="6" fill="none" stroke="#3E6259" stroke-width="2"/>
+    <path d="M35 153 l2 3 l5 -6" stroke="#3E6259" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="54" y="157">Ir al gimnasio</text>
+
+    <rect x="24" y="174" width="352" height="26" rx="5" fill="#FFFFFF" stroke="#D8D9CF"/>
+    <circle cx="38" cy="187" r="6" fill="none" stroke="#D8D9CF" stroke-width="2"/>
+    <text x="54" y="191">Terminar los deberes de Node.js</text>
+
+    <rect x="24" y="208" width="352" height="26" rx="5" fill="#FFFFFF" stroke="#D8D9CF"/>
+    <circle cx="38" cy="221" r="6" fill="none" stroke="#D8D9CF" stroke-width="2"/>
+    <text x="54" y="225">Poner una lavadora</text>
+
+    <rect x="24" y="242" width="352" height="26" rx="5" fill="#FFFFFF" stroke="#D8D9CF"/>
+    <circle cx="38" cy="255" r="6" fill="none" stroke="#3E6259" stroke-width="2"/>
+    <path d="M35 255 l2 3 l5 -6" stroke="#3E6259" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="54" y="259">Enviar informe semanal al trabajo</text>
+
+    <rect x="24" y="276" width="352" height="26" rx="5" fill="#FFFFFF" stroke="#D8D9CF"/>
+    <circle cx="38" cy="289" r="6" fill="none" stroke="#D8D9CF" stroke-width="2"/>
+    <text x="54" y="293">Hacer la compra semanal</text>
+  </g>
+</svg>
