@@ -310,8 +310,9 @@ textarea:focus-visible {
 }
 
 .project-card img {
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 15 / 10;
   object-fit: cover;
+  object-position: center;
 }
 
 .project-card__body {
